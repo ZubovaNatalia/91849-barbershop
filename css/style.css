@@ -22,3 +22,140 @@ body {
 	font-family: "PT Sans", serif;
 }
 
+/*Сетки*/
+
+.clearfix:after {
+	content: "";
+    display: table;
+    clear: both;
+}
+
+.main-container {
+	width: 1200px;
+	margin: 0 auto;
+	background-color: red;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+	background-color: grey;
+}
+
+.h1, .h2, .h3, ul {
+	margin: 0;
+}
+
+.logo, nav li {
+	float: left;
+	min-height: 72px;
+	margin-right: 40px;
+}
+
+.main-nav {
+	width: 780px; 
+	float: left;
+}
+
+.user-block {
+	float: right;
+	width: 140px;
+}
+.breadcrumbs li {
+	background-color: yellow;
+	float: left;
+	margin-right: 18px;
+	margin-bottom: 57px;
+	margin-top: 25px;
+}
+
+.preview-image img{
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+.item-gallery {
+	float: left;
+	margin-right: 90px;
+	margin-bottom: 50px;
+
+}
+
+.contacts, .social, .developer {
+	float: left;
+}
+
+.contacts, .social {
+	width: 400px;
+}
+
+.article {
+	float: right;
+}
+
+.item-cost, .btn {
+	float: left;
+	padding: 16px 25px 16px 29px;
+	margin-bottom: 77px;
+}
+
+.item-order {
+	overflow: hidden;
+	background-color: yellow;
+}
+
+.item-description {
+	margin-top: 38px;
+}
+
+.item-content {
+	margin-top: 23px;
+}
+.item-info {
+	overflow: hidden;
+}
+
+.pagination li {
+	float: left;
+	padding: 14px 19px;
+	background-color: yellow;
+	margin-top: 45px;
+	font-size: 14px;
+}
+
+.filters-form {
+	float: left;
+	width: 240px;
+}
+
+label {
+	display: block;
+}
+
+.catalogue {
+	overflow: hidden;
+	font-size: 0px;
+}
+
+.item {
+	display: inline-block;
+	background-color: green;
+	width: 220px;  
+	margin-top: 20px;
+	vertical-align: top;
+	font-size: 14px;
+}
+
+.item:nth-child(3n)  {
+  margin-right: 20px;
+}
+
+/*
+А у меня что-то только мой вариант работает :)
+.item:first-child, .item:nth-child(2), .item:nth-child(4), .item:nth-child(5)  {
+  margin-right: 20px;*/
+}
+
+/*Сетки*/
+
